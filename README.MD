@@ -1,3 +1,8 @@
+# setting .env
+After creat .env file, please copy the content of .env.sample.
+And you can set params.
+
+
 # deploy
  npx hardhat run  --network rinkeby scripts/deploy.js
 
