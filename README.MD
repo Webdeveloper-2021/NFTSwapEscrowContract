@@ -1,13 +1,16 @@
 # deploy
  npx hardhat run  --network rinkeby scripts/deploy.js
 
-#verify
+# verify
 - first contract
  npx hardhat verify --network rinkeby 0x6----first contract address----5
 
- https://rinkeby.etherscan.io/address/0x64E667e12bdd91F694958dEb297b69E4eBB59C05#code
+ https://rinkeby.etherscan.io/address/0x7dfaC16F291d37fB69b448BE0C59fa75FeAed368#code
 
 - second contract
 npx hardhat verify --network rinkeby --constructor-args args/secondNFTArgs.js 0x8----second contract address----e
 
-https://rinkeby.etherscan.io/address/0x8C7Dc694a47124fAb497cFbDC5a7FAc2fa1Cb06e/#code
+https://rinkeby.etherscan.io/address/0xa0eF5f22404e9ac8c0d1A04D8A16fFCE311b6a4E#code
+
+# test
+npx hardhat test
